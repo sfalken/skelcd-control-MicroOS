@@ -34,6 +34,7 @@ textdomain="control"
         <enable_register_hwdata config:type="boolean">true</enable_register_hwdata>
         <enable_register_optional config:type="boolean">true</enable_register_optional>
         <enable_systemd_boot config:type="boolean">true</enable_systemd_boot>
+        <prefered_bootloader>systemd-boot</prefered_bootloader>
         <display_register_forcereg config:type="boolean">true</display_register_forcereg>
         <disable_register_w3m config:type="boolean">false</disable_register_w3m>
         <disable_os_prober config:type="boolean">true</disable_os_prober>
@@ -71,7 +72,7 @@ textdomain="control"
         <rle_offer_rulevel_4 config:type="boolean">true</rle_offer_rulevel_4>
 
         <!-- FATE: #303893: Default to enabled kdump -->
-        <enable_kdump config:type="boolean">true</enable_kdump>
+        <enable_kdump config:type="boolean">false</enable_kdump>
 
         <!-- use *.opensuse.pool.ntp.org fallback when an NTP server is not set in the DHCP response -->
         <default_ntp_setup config:type="boolean">true</default_ntp_setup>
