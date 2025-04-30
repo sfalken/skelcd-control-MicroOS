@@ -2,7 +2,7 @@
 Tue Apr 29 16:01:51 UTC 2025 - Stefan Schubert <schubi@suse.de>
 
 - Disabling kdump
-- Set default bootloader to systemd-boot
+- Set default bootloader to systemd-boot (jsc#PED-1906).
 - 20250429
 
 -------------------------------------------------------------------
